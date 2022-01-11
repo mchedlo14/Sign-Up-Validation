@@ -1,0 +1,122 @@
+.main-container{
+    width: 100%;
+    height: 800px;
+    border: 10px solid #E24429;
+}
+img{
+    width: 100%;
+}
+.field-container{
+    margin-top: 21px;
+}
+.form{
+    width: 330px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E24429;
+}
+.input-email{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 5px;
+    outline: none;
+    color: #666666;
+}
+.form div{
+    position: relative;
+}
+.email-checker{
+    position: absolute;
+    right: 10px;
+    bottom:12px;
+    font-size: 20px;
+    color: green;
+    display: none;
+}
+.password-checker{
+    position: absolute;
+    right: 10px;
+    bottom:32px;
+    font-size: 20px;
+    color: green;
+    display: none;
+}
+.password-checker-second{
+    position: absolute;
+    right: 10px;
+    bottom:12px;
+    font-size: 20px;
+    color: green;
+    display: none;
+}
+.username-checker{
+    position: absolute;
+    right: 10px;
+    bottom:12px;
+    font-size: 20px;
+    color: green;
+    display: none;
+}
+.input-password{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 5px;
+    outline: none;
+    color: #666666;
+}
+.input-second-password{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 5px;
+    outline: none;
+    color: #666666;
+}
+.input-username{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin-top: 5px;
+    outline: none;
+    color: #666666;
+}
+::placeholder{
+    padding: 16px;
+}
+.checkbox-container{
+    margin-top:21px;
+}
+label{
+    color: #666666;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    background-color: #E24429;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 10px;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 21px;
+}
+.error-text{
+    color: #E24429;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7px;
+    font-size: 12px;
+}

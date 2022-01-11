@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Form validation</title>
+</head>
+<body>
+    <div class="main-container">
+        <img src="Group.png" alt="" class="img">
+
+        <form action="" class="form" id="form" method="GET">
+            <div>
+                <p class="paragraph">Email</p>
+                <input type="text" placeholder="Enter Your Email" id="email" class="input-email">
+                <div class="error-text" id="error_email"></div>
+                <i class="fas fa-check email-checker"></i>
+    
+            </div>
+
+            <div class="field-container">
+                <p class="paragraph">Password</p>
+                <input type="password" placeholder="Enter Your Password" id="password" class="input-password">
+                <div class="error-text" id="error_password"></div>
+                <i class="fas fa-check password-checker"></i>
+
+            </div>
+
+            <div class="field-container">
+                <p class="paragraph">Confirm Password</p>
+                <input type="password" placeholder="Confirm Password" id="password2" class="input-second-password">
+                <div class="error-text" id="error_password"></div>
+                <i class="fas fa-check password-checker-second"></i>
+
+            </div>
+
+            <div class="field-container">
+                <p class="paragraph">Username</p>
+                <input type="text" placeholder="Enter Your Username" id="username" class="input-username">
+                <div class="error-text" id="error_username"></div>
+                <i class="fas fa-check username-checker"></i>
+
+            </div>
+
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="agree">
+                <label for="">I agree terms and conditions</label>
+                <div class="error-text" id="error_agree"></div>
+            </div>
+
+            
+            <button class="btn" type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
